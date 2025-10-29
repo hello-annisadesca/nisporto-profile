@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# 🌐 Nisporto — Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Website portfolio pribadi yang menampilkan karya, keterampilan, dan kontak profesional menggunakan **React.js** dan **Tailwind CSS**.
+---
+## 🚀 Fitur Utama
 
-## Available Scripts
+- Tampilan modern dan responsif (desktop & mobile)
+- Navigasi interaktif antar section (About, Skills, Portfolio, Contact)
+- Desain UI sesuai dengan rancangan Figma
+- Komponen reusable berbasis React
+- Integrasi Tailwind untuk styling cepat dan konsisten
 
-In the project directory, you can run:
+---
+## ⚙️ Teknologi yang Digunakan
 
-### `npm start`
+- **React.js** — Library JavaScript untuk membangun UI
+- **Tailwind CSS** — Framework utility-first untuk styling responsif
+- **React Router DOM** — Navigasi antar halaman/section
+- **Vite / Create React App** (tergantung environment project kamu)
+- **Git & GitHub** — Version control dan hosting repository
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
+## 🛠️ Cara Menjalankan Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Pastikan kamu sudah menginstal **Node.js** (versi terbaru disarankan).
 
-### `npm test`
+```bash
+# 1️⃣ Clone repository ini
+git clone https://github.com/annisa-desca/nisporto-profile.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 2️⃣ Masuk ke folder project
+cd nisporto-profile
 
-### `npm run build`
+# 3️⃣ Install dependencies
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 4️⃣ Jalankan project di mode development
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# atau jika menggunakan Vite:
+npm run dev
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+Kemudian buka browser dan akses:
+👉 http://localhost:3000 (untuk CRA)
+atau
+👉 http://localhost:5173 (untuk Vite)
+---
+```bash
+nisporto-profile/
+├── src/
+│   ├── assets/          # Gambar, ikon, dan file statis
+│   ├── components/      # Komponen seperti Header, Hero, About, dll
+│   ├── pages/           # Halaman utama seperti PortfolioPage
+│   ├── App.jsx          # Entry utama aplikasi React
+│   └── index.js         # Root render ReactDOM
+├── public/
+│   └── index.html       # Template HTML utama
+└── tailwind.config.js   # Konfigurasi Tailwind CSS
+```
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Annisa Desca
+UI/UX Designer & Web Developer
+📍 Surabaya, Indonesia
+[Project ini dibuat untuk keperluan pembelajaran dan tugas kuliah.]
