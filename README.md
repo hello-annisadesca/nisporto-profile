@@ -1,6 +1,6 @@
 # 🌐 Nisporto — Personal Portfolio Website
-
 Website portfolio pribadi yang menampilkan karya, keterampilan, dan kontak profesional menggunakan **React.js** dan **Tailwind CSS**.
+
 ---
 ## 🚀 Fitur Utama
 
@@ -41,10 +41,11 @@ npm start
 npm run dev
 
 ```
+---
 Kemudian buka browser dan akses:
-👉 http://localhost:3000 (untuk CRA)
+- 👉 http://localhost:3000 (untuk CRA)
 atau
-👉 http://localhost:5173 (untuk Vite)
+- 👉 http://localhost:5173 (untuk Vite)
 ---
 ```bash
 nisporto-profile/
