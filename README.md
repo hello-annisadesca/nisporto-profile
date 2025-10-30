@@ -16,7 +16,6 @@ Website portfolio pribadi yang menampilkan karya, keterampilan, dan kontak profe
 - **React.js** — Library JavaScript untuk membangun UI
 - **Tailwind CSS** — Framework utility-first untuk styling responsif
 - **React Router DOM** — Navigasi antar halaman/section
-- **Vite / Create React App** (tergantung environment project kamu)
 - **Git & GitHub** — Version control dan hosting repository
 
 ---
